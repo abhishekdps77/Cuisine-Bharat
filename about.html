@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-square.ico">
+
+    <title>Cuisine Bharat-About Us</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navigationBar ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/favicon.png" alt="" width="150" height="40">
+            </a>
+        </div>
+
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color:#99154E;
+                        font-weight: 1000;
+                        border-radius: 10px;
+                        border-left:6px inset #99154E;
+                        border-top: 4px inset #99154E;
+                        background-color: #EBA83A;
+                        transform:translateY(-0.25em);
+                        box-shadow: 0 0.5em 0.5em -0.4em #99154E;">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-info">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid home-to-about">
+        <h4>Home &#8594; About Us</h4>
+    </div>
+
+    <div class="container-fluid about-us-description-container">
+        <h3>Welcome to the <b>CUISINE BHARAT</b> <sup>&reg;</sup></h3>
+        <h5>"Premium Indian Dining and Takeaway in heart of Delhi"</h5>
+        <h6>Serving the Nation since 1956 </h6>
+
+        <div class="row about-us-table">
+            <div class="col my-auto">
+                <h3>Dining</h3>
+                <p class="about-us-description">Modernity and a rich Colonial heritage coexit's in India's city of
+                    dreams. It's illustrious past as one of the subcontinent's prime hubs of trade, lends it an
+                    infectious vibe that is inimitable. Get ready to be swept away by the infectious energy of this
+                    island city and it's residents.</p>
+            </div>
+            <div class="col">
+                <img src="images/dining.jpg" alt="" width="400px" height="300px">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="images/reserved-table.jpg" alt="" width="400px" height="300px">
+            </div>
+            <div class="col my-auto">
+                <h3>Book a Table</h3>
+                <p class="about-us-description">Easy advance table booking, provides hassle free eating experience.
+                    Avoid waiting in long queues. <br>
+                    Flexible booking hours with special occasion offers and recommendations.
+                </p>
+                <!-- menu modal -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    BOOK NOW &nbsp; &gt;
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Help us serve you better</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="row g-3 form-conatainer">
+                                    <div class="col-md-6">
+                                      <label for="inputEmail4" class="form-label">First Name</label>
+                                      <input type="text" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputPassword4" class="form-label">Last Name</label>
+                                      <input type="text" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress" class="form-label">Mobile</label>
+                                      <input type="text" class="form-control" id="inputAddress" placeholder="Enter your mobile number ">
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress2" class="form-label">Date</label>
+                                      <input type="date" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputCity" class="form-label">Session</label> <br>
+                                      <input type="radio" class="form-check-input" id="inputCity" name="session"> Lunch
+                                      <input type="radio" class="form-check-input" id="inputCity" name="session"> Dinner
+                                    </div>
+                                    <p>
+                                    <div class="col-md-4">
+                                      <label for="inputState" class="form-label">Location</label>
+                                      <select id="inputState" class="form-select">
+                                        <option selected>--Select Location--</option>
+                                        <option>South Extension</option>
+                                        <option>Lajpath Nagar</option>
+                                        <option>Punjabi Bagh</option>
+                                        <option>Greater Noida</option>
+                                        <option>Faridabad</option>
+                                      </select>
+                                    </div>
+                                </p>
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          I agree to terms & conditions
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <button type="submit" class="btn btn-primary">BOOK NOW</button>
+                                    </div>
+                                  </form>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col my-auto">
+                <h3>Variety</h3>
+                <p class="about-us-description">
+                    A new age pan India restaurant serving recepies for newer generation. <br>
+                    Select from our wide range of delicacies. <br>
+                    Top item's and dishes selected by most reputed chefs for our menu keeping in mind the health and
+                    taste factor. <br>
+                    Choose from the specialised North Indian dishes or from the ever loved South Indian.
+                </p>
+            </div>
+            <div class="col">
+                <img src="images/caraousel-1.jpg" alt="" width="400px" height="300px">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid online-delivery-container">
+        <h3>Now Order Your Favourite Cuisines Online</h3>
+        <p>
+            Get your favourite food delivered online through our delivery partners. <br>
+            Free home delivery upto 3 km. <br>
+            Use coupon code : CUISINE0101 to avail flat 20% off on delivered food.
+        </p>
+
+        <div class="container-fluid delivery-Partner-Container">
+            <marquee behavior="scroll" direction="" scrollamount="20">
+                <img class="devilvery-partner" src="images/swiggy.png" alt="">
+                <img class="devilvery-partner" src="images/zomato.png" alt="">
+                <img class="devilvery-partner" src="images/uber-eats.png" alt="">
+                <img class="devilvery-partner" src="images/foodpanda.png" alt="">
+                <img class="devilvery-partner" src="images/dunzo.png" alt="">
+            </marquee>
+        </div>
+    </div>
+
+    <div id="contact-info" class="container-fluid contact-info-container">
+        <h2 class="contact-info-title">CONTACT INFORMATION</h2>
+
+        <div class="row">
+            <div class="col">
+                <i class="far fa-clock fa-3x contact-icon"></i>
+                <p class="contact-description">
+                    Mon to Thu : 11:30AM – 2:30PM & 5PM -9.30PM <br>
+                    Fri : 11:30am–2:30pm & 5PM–10pm <br>
+                    Sat : 12–3pm, 5–10pm <br>
+                    Sun : 12–3pm, 5–9:30pm</p>
+            </div>
+            <div class="col">
+                <i class="fas fa-phone-alt fa-3x contact-icon"></i>
+                <p class="contact-description"> Phone: 011-8578362 <br>
+                    Email: cuisine_bharat@gmail.com</p>
+            </div>
+            <div class="col">
+                <i class="fas fa-map-marker-alt fa-3x contact-icon"></i>
+                <p class="contact-description">W-32 SOUTH EXTENSION-II <br> NEW DELHI-110049</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer-container">
+        <div class="social-media-container">
+            <a href="https://www.instagram.com/abhi.shek.77/?hl=en" target="_blank"><i
+                    class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/abhishek.kumarsingh.161/" target="_blank"><i
+                    class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/abhishek-singh-20428b201/" target="_blank"><i
+                    class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/abhishekdps77" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/abhishek_dps_77" target="_blank"> <i class="fab fa-twitter fa-2x"></i></a>
+            <a href="mailto:abhisheknsit77@gmail.com" target="_blank"><i class="far fa-envelope fa-2x"></i></a>
+        </div>
+        <div id="copyright">
+            <p class="copyright-text">Made with &heartsuit; and &#127866; <br> &copy; <b>Abhishek Singh</b></p>
+        </div>
+    </div>
+
+    <div class="container-fluid menu-page-logo">
+        <a href="index.html"><img src="images/favicon.png" alt="" width="150px" height="40px"></a>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

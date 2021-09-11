@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="feedback.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-square.ico">
+
+  <title>Cuisine Bharat-Feedback</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navigationBar ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/favicon.png" alt="" width="150" height="40">
+      </a>
+    </div>
+
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html" style="color:#99154E;
+                        font-weight: 1000;
+                        border-radius: 10px;
+                        border-left:6px inset #99154E;
+                        border-top: 4px inset #99154E;
+                        background-color: #EBA83A;
+                        transform:translateY(-0.25em);
+                        box-shadow: 0 0.5em 0.5em -0.4em #99154E;">Feedback</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-info">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid home-to-feedback">
+    <h4>Home &#8594; Feedback</h4>
+  </div>
+
+  <div class="container-fluid thankyou-container">
+    <div class="row">
+      <div class="col my-auto">
+        <p>
+          Thank you for choosing our services ! <br> <br>
+          It has been a pleasure serving you. We at CUISINE BHARAT take pride in givinf priority to our
+          customers and looking after there needs. <br> <br>
+          If there's anything else we can do for you please do inform us. We alse appreciate your feedback; It
+          is what keeps us motivated. <br> <br>
+          Thank you again for choosing us. Looking forward to having you as one of our valued customer again.
+        </p>
+        <button type="button" class="btn btn-primary modal-button" data-bs-toggle="modal"
+          data-bs-target="#feedbackModal">
+          SUBMIT FEEDBACK &nbsp; &GT;
+        </button>
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">FEEDBACK FORM</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form action="" class="feedback-form-container" autocomplete="off">
+                  <div class="mb-3">
+                    <label for="name" class="form-label label-title">Name</label>
+                    <input type="text" class="form-control" id="name" >
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label label-title">Mobile</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="location" class="form-label label-title">Location</label>
+                    <select name="location" class="form-control" id="location">
+                      <option value="">--Select Location--</option>
+                      <option value="">South Extension</option>
+                      <option value="">Lajpath Nagar</option>
+                      <option value="">Punjabi Bagh</option>
+                      <option value="">Greater Noida</option>
+                      <option value="">Faridabad</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="session" class="form-label label-title">Session</label> <br>
+                    <input type="radio" name="session" class="form-check-input"> Lunch
+                    <input type="radio" name="session" class="form-check-input"> Dinner
+                  </div>
+                  <div class="mb-3">
+                    <label for="date" class="form-label label-title">Date</label>
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label for="quality" class="form-label label-title">Food Quality</label> <br>
+                    <input type="radio" name="quality" class="form-check-input"> Excellent
+                    <input type="radio" name="quality" class="form-check-input"> Good
+                    <input type="radio" name="quality" class="form-check-input"> Average
+                    <input type="radio" name="quality" class="form-check-input"> Dissatisfied
+                  </div>
+                  <div class="mb-3">
+                    <label for="clean" class="form-label label-title">Cleanliness</label> <br>
+                    <input type="radio" name="clean" class="form-check-input"> Excellent
+                    <input type="radio" name="clean" class="form-check-input"> Good
+                    <input type="radio" name="clean" class="form-check-input"> Average
+                    <input type="radio" name="clean" class="form-check-input"> Dissatisfied
+                  </div>
+                  <div class="mb-3">
+                    <label for="clean" class="form-label label-title">Speed of Service</label> <br>
+                    <input type="radio" name="service" class="form-check-input"> Excellent
+                    <input type="radio" name="service" class="form-check-input"> Good
+                    <input type="radio" name="service" class="form-check-input"> Average
+                    <input type="radio" name="service" class="form-check-input"> Dissatisfied
+                  </div>
+                  <div class="mb-3">
+                    <label for="clean" class="form-label label-title">Service Speed</label> <br>
+                    <input type="radio" name="speed" class="form-check-input"> Excellent
+                    <input type="radio" name="speed" class="form-check-input"> Good
+                    <input type="radio" name="speed" class="form-check-input"> Average
+                    <input type="radio" name="speed" class="form-check-input"> Dissatisfied
+                  </div>
+                  <div class="mb-3">
+                    <label for="clean" class="form-label label-title">Pricing</label> <br>
+                    <input type="radio" name="price" class="form-check-input"> Excellent
+                    <input type="radio" name="price" class="form-check-input"> Good
+                    <input type="radio" name="price" class="form-check-input"> Average
+                    <input type="radio" name="price" class="form-check-input"> Dissatisfied
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label label-title">Any comments, questions or suggestions?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <img src="images/thankyou.jpg" alt="" width="400px" height="300px">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid customer-feedback-container">
+
+    <h2> CUSTOMER REVIEWS</h2>
+
+    <div id="customerReview" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="6000">
+          <div class="row">
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/female.png" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">Vaishali Takkar</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <p class="card-text">We had a team lunch for around 14 people at Cuisine Bharat. The food was
+                    tasty and yummy. I loved the dessert specially. The staff was so courteous and calm ...
+                    I would love to visit here again!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/female.png" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Swati Sharma</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <p class="card-text">Went for dinner today and shankar das attended us. His service was
+                    excellent and up to the mark.
+                    Food quality was very good.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/male.jpg" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Abhay Rautela</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <p class="card-text">Amazing quantity and superb quality!! A must try for all.</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="7000">
+          <div class="row">
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/male.jpg" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Sachin Pratap Singh</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <p class="card-text">kya mtlv 2 ghante wait krne k baad ye khana cold and quantity bhi boht km.Food is
+                    not warm.... and taste is not worthy.... except sweet</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/female.png" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">Kajal Mohanty</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <p class="card-text">Food was really delicious and the services provided by the staff was amazing
+                    Price worth
+                    Must try .
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/male.jpg" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Satyajit Sahoo</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <p class="card-text">Food was not good at all mutton and Dal makhni tasted as if stale and the other
+                    dishes too were not up to the mark</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="8000">
+          <div class="row">
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/male.jpg" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">Sherry</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <p class="card-text">This is my all time favorite place for buffet. The selection of starters, mains,
+                    accompnimemts is great and the choice desserts is amazing.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/female.png" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Jyoti Raj</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <p class="card-text">Before entering the place, I was wowed by the decor & the proper sanitization
+                    measures followed if you visit once then you would attracts towards it for the second time because
+                    taste is just wow.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card user-card">
+                <img class="user-image" src="images/male.jpg" class="card-img-top" alt=" ">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Rahul Foodie</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <p class="card-text">I'm not sure if this is a touristy place or not but it's so good. It's really fun
+                    too with the cooking at the table and the mass amounts of food that are available for trying</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#customerReview" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#customerReview" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div id="contact-info" class="container-fluid contact-info-container">
+    <h2 class="contact-info-title">CONTACT INFORMATION</h2>
+
+    <div class="row">
+      <div class="col">
+        <i class="far fa-clock fa-3x contact-icon"></i>
+        <p class="contact-description">
+          Mon to Thu : 11:30AM – 2:30PM & 5PM -9.30PM <br>
+          Fri : 11:30am–2:30pm & 5PM–10pm <br>
+          Sat : 12–3pm, 5–10pm <br>
+          Sun : 12–3pm, 5–9:30pm</p>
+      </div>
+      <div class="col">
+        <i class="fas fa-phone-alt fa-3x contact-icon"></i>
+        <p class="contact-description"> Phone: 011-8578362 <br>
+          Email: cuisine_bharat@gmail.com</p>
+      </div>
+      <div class="col">
+        <i class="fas fa-map-marker-alt fa-3x contact-icon"></i>
+        <p class="contact-description">W-32 SOUTH EXTENSION-II <br> NEW DELHI-110049</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer-container">
+    <div class="social-media-container">
+      <a href="https://www.instagram.com/abhi.shek.77/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.facebook.com/abhishek.kumarsingh.161/" target="_blank"><i
+          class="fab fa-facebook-square fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/abhishek-singh-20428b201/" target="_blank"><i
+          class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/abhishekdps77" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/abhishek_dps_77" target="_blank"> <i class="fab fa-twitter fa-2x"></i></a>
+      <a href="mailto:abhisheknsit77@gmail.com" target="_blank"><i class="far fa-envelope fa-2x"></i></a>
+    </div>
+    <div id="copyright">
+      <p class="copyright-text">Made with &heartsuit; and &#127866; <br> &copy; <b>Abhishek Singh</b></p>
+    </div>
+  </div>
+
+  <div class="container-fluid menu-page-logo">
+    <a href="index.html"><img src="images/favicon.png" alt="" width="150px" height="40px"></a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

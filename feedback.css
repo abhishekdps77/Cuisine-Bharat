@@ -1,0 +1,105 @@
+.home-to-feedback{
+    background-image: url("images/homeBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    padding:10px 30px;
+}
+
+.home-to-feedback h4{
+    color: #E8B200;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.thankyou-container{
+    background-image: url("images/card-background.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.thankyou-container p{
+    text-align: left;
+    font-weight: bolder;
+    color: #8E2657;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+
+.customer-feedback-container{
+    background-image: url("images/table-made-with-planks.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.checked {
+    color: orange;
+}
+
+.customer-feedback-container h2{
+    display: inline-block;
+    border-left: 5px inset #99154E;
+  border-bottom: 5px inset #99154E;
+    color: #0F044C;
+    font-size:3rem;
+    font-weight: 900;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.user-card{
+    text-align: center;
+    margin: 0 auto;
+    width: 18rem; 
+    height: 20rem;
+    background-color: floralwhite;
+}
+
+
+.user-image{
+    margin: 0 auto;
+      width:30%;
+      height:30%;
+      padding: 10px;
+}
+
+.menu-page-logo{
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.feedback-form-container{
+    padding: 30px;
+    text-align: left;
+    background-color: #E1E5EA;
+}
+
+.label-title{
+    font-weight: 900;
+}
+
+.modal-button{
+    color:#ffffff;
+    font-weight: bold;
+    background-color: #0F044C;
+    border: 2px solid #E8B200;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    margin-right: 5px;
+}
+
+.modal-button:hover{
+    color:#99154E;
+    font-weight: 1000;
+    background-color: antiquewhite;
+    border: 2px solid #E8B200;
+    border-radius: 10px ;
+    transform: translateY(-0.25em);
+    box-shadow: 10px 5px 5px #99154E;
+}
+

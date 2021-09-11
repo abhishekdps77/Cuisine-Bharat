@@ -1,0 +1,97 @@
+
+.home-to-about{
+    background-image: url("images/homeBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    padding:10px 30px;
+}
+.home-to-about h4{
+    color: #E8B200;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.about-us-description-container{
+    background-image: url("images/card-background.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding:50px 50px ;
+}
+.about-us-description-container h3{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #99154E;
+}
+.about-us-description-container h5{
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+.about-us-description-container h6{
+    font-size:1rem;
+    color:darkslateblue;
+    font-weight: bold;
+}
+
+.about-us-table{
+    margin-top:20px;
+    padding: 40px 40px;
+}
+
+.about-us-description{
+    font-weight: bolder;
+    text-align: left;
+    color: darkslateblue;
+}
+
+.modal-button{
+    color:#ffffff;
+    font-weight: bold;
+    background-color: #0F044C;
+    border: 2px solid #E8B200;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    margin-right: 5px;
+}
+.modal-button:hover{
+    color:#99154E;
+    font-weight: 1000;
+    background-color: antiquewhite;
+    border: 2px solid #E8B200;
+    border-radius: 10px ;
+    transform: translateY(-0.25em);
+    box-shadow: 10px 5px 5px #99154E;
+}
+
+.online-delivery-container{
+    background-image: url("images/table-made-with-planks.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 30px;
+}
+.online-delivery-container h3{
+    color: #BD1616;
+    font-weight: 900;
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+.online-delivery-container p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-page-logo{
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.form-conatainer{
+    padding: 30px;
+    text-align: left;
+}
